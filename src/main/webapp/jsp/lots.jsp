@@ -58,8 +58,8 @@
 </main>
 
 <c:if test="${not empty user}">
-    <div class="user-info">
-        <a href="${pageContext.request.contextPath}/logout">Logout</a>
+    <div class="user-info center">
+        <a href="${pageContext.request.contextPath}/logout" class="logout-button">Logout</a>
     </div>
 </c:if>
 
